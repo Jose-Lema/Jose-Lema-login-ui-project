@@ -1,0 +1,19 @@
+body {
+    margin: 0px;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+    border: 5px solid green;
+}
+
+.login-card {
+    display: flex;
+    box-sizing: border-box;
+    border: 5px dashed blue;
+    justify-content: center;
+    align-items: center;
+}
