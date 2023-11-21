@@ -11,9 +11,29 @@ body {
 }
 
 .login-card {
+    height: 150px;
+    width: 200px;
     display: flex;
     box-sizing: border-box;
     border: 5px dashed blue;
     justify-content: center;
     align-items: center;
+}
+
+.media-query-magic {
+    display: none;
+    width: 150px;
+    height: 150px;
+    border: 5px solid red;
+    box-sizing: border-box;
+}
+
+@media (700px <= width <= 1000px) {
+    .media-query-magic{
+        display: block;
+    }
+}
+
+@media (700px <= width <= 1000px) {
+
 }
