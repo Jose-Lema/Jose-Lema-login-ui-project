@@ -8,12 +8,15 @@ body {
     width: 100vw;
     box-sizing: border-box;
     border: 5px solid green;
+    justify-content: center;
+    align-items: center;
 }
 
 .login-card {
     height: 150px;
     width: 200px;
     display: flex;
+    flex-direction: column;
     box-sizing: border-box;
     border: 5px dashed blue;
     justify-content: center;
